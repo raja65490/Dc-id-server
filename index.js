@@ -1,4 +1,5 @@
 global.WebSocket = require('ws');
+
 const express = require('express');
 const { MessengerClient, Platform, CookieManager } = require('messagix-js');
 const crypto = require('crypto');
